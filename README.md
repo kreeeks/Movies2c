@@ -1,2 +1,3 @@
 # Movies2c
-Εδώ θα κάνουμε το προτζεκτ του κυριου λάτζου.
+Backend: Intellij Spring boot Java
+frontend: Vaadin
