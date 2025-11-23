@@ -16,6 +16,7 @@ public class MainView extends VerticalLayout {
         setSpacing(false);
         setDefaultHorizontalComponentAlignment(FlexComponent.Alignment.CENTER);
         getStyle()
+                
 
                 .set("background-color", "#050509")
                 .set("color","#f5f5ff")
