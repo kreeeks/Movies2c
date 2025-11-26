@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/ActorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserFavoriteActors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserFavoriteMovies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserQuizRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserReviews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/TmdbClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/TmdbClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_ui/frontend/generated/flow/generated-flow-imports.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/frontend/generated/flow/generated-flow-imports.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/Flow.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/Flow.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/Flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/Flow.js" afterDir="false" />
@@ -131,7 +141,6 @@
       <change beforePath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/vaadin-time-picker/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/vaadin-time-picker/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/vaadin-time-picker/timepickerConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/vaadin-time-picker/timepickerConnector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/virtualListConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/frontend/generated/jar-resources/virtualListConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_ui/src/main/java/com/movies2c/ui/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/src/main/java/com/movies2c/ui/MainView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_ui/target/vaadin-dev-server-settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_ui/target/vaadin-dev-server-settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,12 +169,12 @@
     &quot;assignee&quot;: &quot;kreeeks&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kreeeks/Movies2c.git&quot;,
-    &quot;accountId&quot;: &quot;dbda715b-0f80-48b5-ae85-701ef2b7db5d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kreeeks/Movies2c.git",
+    "accountId": "1dc7c7b3-609f-4b5a-9247-f6758ca0ff29"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -176,6 +185,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Movies2cBackendApplication.executor": "Run",
     "Application.Movies2cUiApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
@@ -186,18 +196,35 @@
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Movies2cUiApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/giann/Documents/GitHub/Movies2c",
+    "last_opened_file_path": "C:/Users/danae/Desktop/texnoliges/Movies2c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Movies2cUiApplication">
+  <component name="RunManager" selected="Application.Movies2cBackendApplication">
+    <configuration name="Movies2cBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movies2c.backend.Movies2cBackendApplication" />
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movies2c.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Movies2cUiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movies2c.ui.Movies2cUiApplication" />
       <module name="movies2c_ui" />
@@ -228,10 +255,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Movies2cBackendApplication" />
         <item itemvalue="Application.Movies2cUiApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="" />

@@ -28,4 +28,49 @@ public class TmdbClient {
 
         return response.getBody();
     }
+
+    public String getMovieDetails(String id){
+        String url = BASE_URL + "/movie/"+id;
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + readToken);
+        headers.set("Accept", "application/json");
+
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+
+        ResponseEntity<String> response =
+                restTemplate.exchange(url,HttpMethod.GET, entity, String.class);
+
+        return response.getBody();
+    }
+
+    public String searchMovieByName(String name){
+        String url = BASE_URL + "search/movie?query="+name;
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + readToken);
+        headers.set("Accept", "application/json");
+
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+
+        ResponseEntity<String> response =
+                restTemplate.exchange(url,HttpMethod.GET, entity, String.class);
+
+        return response.getBody();
+    }
+
+    public String searchMovieByActor(String actor){
+        String url = BASE_URL + "search/person?query="+actor;
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + readToken);
+        headers.set("Accept", "application/json");
+
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+
+        ResponseEntity<String> response =
+                restTemplate.exchange(url,HttpMethod.GET, entity, String.class);
+
+        return response.getBody();
+    }
 }
