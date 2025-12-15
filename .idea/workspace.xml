@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="" />
+    <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/TmdbClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/TmdbClient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kreeeks/Movies2c.git&quot;,
-    &quot;accountId&quot;: &quot;1dc7c7b3-609f-4b5a-9247-f6758ca0ff29&quot;
+    &quot;accountId&quot;: &quot;3d76d570-e019-45f4-b6d9-518d96ab7619&quot;
   }
 }</component>
   <component name="ProblemsViewState">

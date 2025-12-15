@@ -73,4 +73,17 @@ public class TmdbClient {
 
         return response.getBody();
     }
+    public String getCastDetails(String id){
+        String url = BASE_URL + "movie/" + id + "/credits" ;
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("Authorization", "Bearer " + readToken);
+        headers.set("Accept", "application/json");
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+        System.out.println(url);
+        System.out.println(readToken);
+        ResponseEntity<String> response = restTemplate.exchange(url,HttpMethod.GET,entity,String.class);
+
+        return response.getBody();
+    }
 }

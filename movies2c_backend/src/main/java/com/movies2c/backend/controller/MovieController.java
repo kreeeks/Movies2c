@@ -23,11 +23,14 @@ public class MovieController {
     @GetMapping("/api/movie")
     public String getMovieDetails(@RequestParam(required = true) String id) {
         return this.tmdbClient.getMovieDetails(id);
-
     }
 
     @GetMapping("/api/search/movie")
     public String searchMovieByName(@RequestParam(required = true) String name){
         return  this.tmdbClient.searchMovieByName(name);
+    }
+    @GetMapping("/api/movie/cast")
+    public String getCastDetails(@RequestParam(required = true) String id) {
+        return this.tmdbClient.getCastDetails(id);
     }
 }
